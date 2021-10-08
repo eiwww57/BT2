@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.2",
+    "express": "^4.17.1"
+  },
+  "name": "bt2",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "new.js",
+  "devDependencies": {
+    "start": "node new.js"
+  },
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

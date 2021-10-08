@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div.card{
+    margin-top: 16rem;
+    text-align: center;
+    color:red;
+}
+*{
+    color:brown;
+}
+h1{
+    color: red;
+}
