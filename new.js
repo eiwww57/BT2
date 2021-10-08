@@ -1,7 +1,7 @@
 const http = require("http");
 var fs = require('fs');
 const hostname = "localhost";
-const port = 3000;
+const port =process.env.PORT || 3000;
 var solan_home = 0;
 var solan_about = 0;
 const server = http.createServer((req, res) => {
@@ -29,6 +29,6 @@ switch (req.url){
         break;
 }
 });
-server.listen( port, hostname,() => {
-console.log("Listen !!! ",hostname ,port);
+server.listen( port,() => {
+console.log("Listen !!! ",port);
 });
