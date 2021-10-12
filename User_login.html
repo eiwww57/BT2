@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T-HEE SIGN UP</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+	<style>
+	  @font-face {
+		  font-family: Hysteria;
+		  src: url(font/Hysteria-jERWM.woff);
+		}	
+		@font-face {
+		  font-family: Geomanist;
+		  src: url(font/geomanist-regular-webfont.woff);
+		}
+	  h5 {
+		font: "geomanist regular";
+		 }
+		#ba-anh{
+			margin-top: -10%;
+			margin-left: 35px;
+		}
+		ul li{
+			margin-right: 50px;
+		}
+		h2 {
+			margin: 20 0 10 50;
+		}	
+		td{
+			font-family: Geomanist;
+			font-size: 1em;
+			font-weight: 400;
+		}
+	</style>
+  </head>
+  <body>
+	<div class="container-md"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" >
+         
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                   <box-icon type='solid' name='home'></box-icon>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="home">
+                  <box-icon type='solid' name='user' >
+                      <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" ></button></box-icon> 
+                      <span class="caret"></span></div>
+                       <ul class="dropdown-menu">
+                        <li><a href="login">Log in</a></li>
+                       <li><a href="signup">Sign up</a></li>
+                       </ul>
+                      </a>
+                      </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="home">
+                  <box-icon type='solid' name='car-garage' >
+                      <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" ></button></box-icon> 
+                      <span class="caret"></span></div>
+                       <ul class="dropdown-menu">
+                        <li><a href="product">Product</a></li>
+                       <li><a href="car">Car</a></li>
+                      <li><a href="airplane">Airplane</a></li>
+                       </ul>
+                      </a>
+                      </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><box-icon name='drink' ></box-icon></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+	<h1 style="font-family: Hysteria; font-size: 4em; margin: 20px 30px; text-align: center">Start your sustainable-fashion shopping here</h1>
+	<div class="container" style="background-color: #EBEBEB">
+		<div class="row">
+			<div class="col-6" style="margin-top: 10px;" >
+				<img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1-6o97YGYYyjOzbzlxl4iboWeacB_3miM" > 
+			</div>
+			<div class="col-6">
+				<h2 style="font-family: Geomanist; font-size: 2em; font-weight: 600; text-align: center; margin: 10px;">LOG IN</h2>
+				<div id="id01">
+				  <form action="userlogin.php" method="post" name="loginuser" onSubmit="return login_val()" >
+					<div class="container" style=" align-content: center">
+					  <table width="500" border="0" cellspacing="3" cellpadding="10">
+							<tr>
+							  <td><label style="font-family: Geomanist;"><b>Username:</b></label></td>
+							  <td><input type="text" placeholder="Enter Username" name="uname" required></td>
+							</tr>
+							<tr>
+							  <td><label style="font-family: Geomanist;"><b>Password: </b></label></td>
+							  <td> <input type="password" placeholder="Enter Password" name="psw" required></td>
+							</tr>
+						    <tr>
+							  <td> </td>
+							  <td><label style="font-family: Geomanist;"><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+							  </td>
+							</tr>
+						    <tr>
+							  <td></td>
+							  <td><button type="submit" style="font-family: Geomanist; margin-right: 20px; border-radius: 10px;">Login</button><button type="reset" style="font-family: Geomanist;border-radius: 10px;">Cancel</button></td>
+							</tr>
+						    <tr>
+							  <td colspan="2" style="text-align: right"><a href="signup">Don't have an account? Create one!</a></td>
+							</tr>
+					  </table>					
+				 	</div>
+				</form>
+			</div>	
+		</div>	
+	</div>
+  </div>
+  <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © T-HEE UNIFORM. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+  </body>
+</html>
