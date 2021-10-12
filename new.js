@@ -1,7 +1,7 @@
 const http = require("http");
 var fs = require('fs');
 const hostname = "localhost";
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 var solan_home = 0;
 var solan_about = 0;
 const server = http.createServer((req, res) => {
