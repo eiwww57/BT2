@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="home_style.css"  >
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <style>
+
+         .card-img-top{
+        float: left;
+       display: block;
+
+   
+        width: 16rem;
+        height: 12rem;
+      
+      }
+   .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+
+overflow: hidden;
+z-index: 1;
+}
+      div.card{
+        margin-left: auto;
+        margin-right: auto;
+    margin-top: 4rem;
+    margin-inline: 2rem;
+    text-align: center;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+      }
+      .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+    </style>
+    </head>
+    <body>
+        <div class="container-md"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" >
+         
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                   <box-icon type='solid' name='home'></box-icon>
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><box-icon name='user' ></box-icon></a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link" href="home">
+                <box-icon type='solid' name='car-garage' >
+                    <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" ></button></box-icon> 
+                    <span class="caret"></span></div>
+                     <ul class="dropdown-menu">
+                     <li><a href="Car.html">Car</a></li>
+                    <li><a href="AIrplane.html">Airplane</a></li>
+                     </ul>
+                    </a>
+                    </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#"><box-icon name='drink' ></box-icon></a>
+              </li>
+               </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class ="container">
+        <div class="card" style="width: 16rem;">
+            <img src="https://cdn.boba.vn/static/san-pham/do-choi/do-choi-dieu-khien-tu-xa/may-bay-truc-thang/may-bay-dieu-khien-tu-xa-syma-s8/94386ds.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+    <div class="card" style="width: 16rem;">
+        <img src="https://cf.shopee.vn/file/1263e2d0dd94ba36ebf9e9733c38c246" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+    <div class="card" style="width: 16rem;">
+        <img src="https://2.bp.blogspot.com/-d8aDsMzC3fk/XJC-zMvDcGI/AAAAAAAACY4/2IAjrqRTIqsfmL0lBsyNtv3H9G7PdGrGgCLcBGAs/s1600/10397005295_1533206497.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+    <div class="card" style="width: 16rem;">
+        <img src="https://cf.shopee.vn/file/d92b5e6841849e638336231ae50d1768" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+</div>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
