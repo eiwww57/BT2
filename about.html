@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: right;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  
+  
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+  
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img class="img" src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.6435-9/123550077_384122426118196_7344889216582531023_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SZoJ-gt8is8AX-vNUY2&_nc_ht=scontent.fsgn5-5.fna&oh=320bde055cb987afb82f9f0d213c85a8&oe=618BC7DD" alt="Jane" style="width:30%;">
+      <div class="container">
+        <h2>Nhi</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.6435-9/102279715_1191582681233955_7501265267056537262_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFmTRg3Ewo8AX_udTBg&_nc_ht=scontent.fsgn5-8.fna&oh=bd144c85e40d059421bbfd75b6398781&oe=618ACBEB" alt="Mike" style="width:30%">
+      <div class="container">
+        <h2>Dũng</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/240227325_2962025990702862_985639921691917807_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=8-opSXpapDMAX9Guh-5&_nc_ht=scontent.fsgn5-10.fna&oh=8c28ba0fe78f9d6ef0c256cf5a1b97f5&oe=616A5892" alt="John" style="width:30%">
+      <div class="container">
+        <h2>Lâm</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column" style="float: left;">
+    <div class="card">
+      <img class="img" src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.18169-1/c37.0.146.147a/1375145_1379741455594279_107543329_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=7206a8&_nc_ohc=l7my9LDG56wAX_ctRy3&_nc_ht=scontent.fsgn5-9.fna&oh=bb17b330f94c4c84833f7da7a2dc32da&oe=618B8C8C" alt="Jane" style="width:30%;">
+      <div class="container">
+        <h2>An</h2>
+        <p class="title">Tester</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
